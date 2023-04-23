@@ -1,5 +1,8 @@
+
 html{
-          scroll-behavior:smooth;}
+    scroll-behavior:smooth;
+}
+
 body{
     margin:0;
     font-family:arial;
@@ -51,6 +54,7 @@ background-image:linear-gradient(269deg,#0048ff,#0096ff);
 main{
     background-color:#f2f6ff;
    }
+
 main p{
    display:flex;
    align-items:center;
