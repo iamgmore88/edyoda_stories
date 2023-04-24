@@ -18,7 +18,7 @@ header{
     justify-content:space-between;
     padding:10px 50px;
     width:100%;
-    position:fixed;
+
     box-shadow:0 1px 1px #ccc;
     }
 header .p{
@@ -54,15 +54,21 @@ background-image:linear-gradient(269deg,#0048ff,#0096ff);
 main{
     background-color:#f2f6ff;
    }
+main .h1{
+    margin-left:30px;}
 
 main p{
    display:flex;
    align-items:center;
 }
-main .p img{
+p img{
     width:24px;
     margin-right:5px;
 }
+main.filters{
+    margin-right:40px;
+    margin-left:40px;}
+
 .filters button{
     color:#0084ff;
     padding:6px 16px;
@@ -76,7 +82,7 @@ main .p img{
 color:white;
 }
 .posts{
-    margin:40px 0;
+    margin:40px 40px;
     display:flex;
     flex-wrap:wrap;
     justify-content:space-between;
@@ -109,5 +115,5 @@ color:white;
 
 footer{
     background-color:#172146;
-    height:60px;
+    height:400px;
 }
